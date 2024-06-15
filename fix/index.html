@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>【Swiper V11】loopモードとwidthを併用した際のバグの解消方法</title>
+  <link rel="stylesheet" href="../assets/css/lib/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+  <section class="section">
+    <h1 class="heading">【Fix】loopモードとwidthを併用した際のバグを解消</h1>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/300/200" alt="" width="300" height="200">
+            <figcaption>スライド1</figcaption>
+          </figure>
+        </div>
+        <div class="swiper-slide">
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/300/200" alt="" width="300" height="200">
+            <figcaption>スライド2</figcaption>
+          </figure>
+        </div>
+        <div class="swiper-slide">
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/300/200" alt="" width="300" height="200">
+            <figcaption>スライド3</figcaption>
+          </figure>
+        </div>
+        <div class="swiper-slide">
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/300/200" alt="" width="300" height="200">
+            <figcaption>スライド4</figcaption>
+          </figure>
+        </div>
+        <div class="swiper-slide">
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/300/200" alt="" width="300" height="200">
+            <figcaption>スライド5</figcaption>
+          </figure>
+        </div>
+        <!-- スライドの枚数を2倍に複製 -->
+        <div class="swiper-slide">
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/300/200" alt="" width="300" height="200">
+            <figcaption>スライド1</figcaption>
+          </figure>
+        </div>
+        <div class="swiper-slide">
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/300/200" alt="" width="300" height="200">
+            <figcaption>スライド2</figcaption>
+          </figure>
+        </div>
+        <div class="swiper-slide">
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/300/200" alt="" width="300" height="200">
+            <figcaption>スライド3</figcaption>
+          </figure>
+        </div>
+        <div class="swiper-slide">
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/300/200" alt="" width="300" height="200">
+            <figcaption>スライド4</figcaption>
+          </figure>
+        </div>
+        <div class="swiper-slide">
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/300/200" alt="" width="300" height="200">
+            <figcaption>スライド5</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="../assets/js/lib/swiper-bundle.min.js" defer></script>
+  <script src="../assets/js/fix.js" defer></script>
+</body>
+
+</html>
